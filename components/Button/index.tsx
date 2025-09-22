@@ -3,8 +3,8 @@ import { TouchableOpacity, StyleSheet, Text, GestureResponderEvent } from 'react
 
 const Button = ({
   label,
-  color = 'orange',
-  colorText = 'black',
+  color = 'rgba(246, 0, 237, 1)',
+  colorText = 'white',
   onPress,
 }: {
   label: string;
@@ -27,10 +27,11 @@ export default Button;
 const styles = StyleSheet.create({
   button: {
     height: 45,
-    borderRadius: 5,
+    borderRadius: 40,
     justifyContent: 'center',
     alignItems: 'center',
     marginTop: 10,
+
   },
   buttonText: {
     fontSize: 16,
